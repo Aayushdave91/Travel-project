@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gowilds – Tours and Travel WordPress Theme – Just another WordPress site</title>
+    <!-- icon -->
+    <link rel="icon" href="image/logoicon.png" type="image/png">
+    <!-- font css -->
+    <link rel="stylesheet" href="css/fonts.css" type="text/css">
+    <!-- font awersome -->
+    <link rel="stylesheet" href="css/bootstrap-icons.css">
+    <!-- boootstrap css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/destination.css" type="text/css">
+    <!-- logo -->
+    <link rel="faicon" href="image/logo.png" type="image/png">
+</head>
+
+<body>
+    <header>
+        <!-- modal -->
+        <!-- <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+                aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            ...
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+        <div class="modal fade" id="exampleModal" data-bs-keyboard="false" tabindex="-1"
+            aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5 text-dark col-7" id="exampleModal">
+                            <img src="image/welcome.gif" alt="#" class="img-fluid">
+                        </h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        Login
+                    </div>
+                    <div class="modal-footer text-start col-12">
+                        Rgister
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- off canvas -->
+        <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions"
+        aria-labelledby="offcanvasWithBothOptionsLabel">
+        <div class="offcanvas-header bg-success-subtle">
+            <h5 class="offcanvas-title col-4" id="offcanvasWithBothOptionsLabel">
+                <img src="image/logo.png " alt="logo" class="img-fluid" />
+            </h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body  d-flex justify-content-between col-12">
+            <div class="accordion accordion-flush col-12" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne1" aria-expanded="true" aria-controls="collapseOne1">
+                            Home
+                        </button>
+                    </h2>
+                    <div id="collapseOne1" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body" href="index.html">
+                            <a href="index.html" class="text-dark text-decoration-none">
+                                Home1
+                          </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="offcanvas-body  d-flex justify-content-between col-12">
+            <div class="accordion accordion-flush col-12" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne2" aria-expanded="true" aria-controls="collapseOne2">
+                            Tours-Pages
+                        </button>
+                    </h2>
+                    <div id="collapseOne2" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            203
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="offcanvas-body  d-flex justify-content-between col-12">
+            <div class="accordion  accordion-flush col-12" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne3" aria-expanded="true" aria-controls="collapseOne3">
+                            Destination
+                        </button>
+                    </h2>
+                    <div id="collapseOne3" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body" >
+                          <a href="destination.html" class="text-dark text-decoration-none">
+                                Destination1
+                          </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="offcanvas-body  d-flex justify-content-between col-12">
+            <div class="accordion col-12 accordion-flush" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne4" aria-expanded="true" aria-controls="collapseOne4">
+                            Pages
+                        </button>
+                    </h2>
+                    <div id="collapseOne4" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            203
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="offcanvas-body  d-flex justify-content-between col-12">
+            <div class="accordion col-12 accordion-flush" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne5" aria-expanded="true" aria-controls="collapseOne5">
+                            News
+                        </button>
+                    </h2>
+                    <div id="collapseOne5" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            203
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="offcanvas-body  d-flex justify-content-between col-12">
+            <div class="accordion col-12 accordion-flush" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne6" aria-expanded="true" aria-controls="collapseOne6">
+                            Contect
+                        </button>
+                    </h2>
+                    <div id="collapseOne6" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <a href="contect.html" class="text-dark text-decoration-none">
+                                Contect1
+                          </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        <!-- header -->
+        <div class="top-bar fs-14" style="background-color: #63AB45;">
+            <div class="container height">
+                <div class="row align-items-center" style="height: 100%;">
+                    <div class="col-5 d-none d-sm-none col-xl-6 d-xl-block">
+                        <div class="d-flex col-12">
+                            <div class="t-content d-flex col-6">
+                                <div class="col-1 text-white">
+                                    <i class="bi bi-geo-alt-fill"></i>
+                                </div>
+                                <div class="col-11 text-white fw-medium">
+                                    250 Main Street, 2nd Floor, USA
+                                </div>
+                            </div>
+                            <div class="t-content d-flex col-6">
+                                <div class="col-1 text-white">
+                                    <i class="bi bi-envelope-fill"></i>
+                                </div>
+                                <div class="col-11 text-white fw-medium">
+                                    contact@example.com
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-7 d-flex justify-content-end height justify-content-end justify-content-sm-end col-12 col-sm-12 col-xl-6">
+                        <div
+                            class="t1-content d-flex col-xxl-4 col-6 px-3 text-white justify-content-between px-2 align-items-center col-md-4 col-lg-3 col-xl-5">
+                            <div class="t1-co fw-bolder r">
+                                Booking Now
+                            </div>
+                            <div class="t1-co">
+                                About
+                            </div>
+                            <div class="t1-co1 position-relative">
+                                <i class="bi bi-cart"></i>
+                            </div>
+                        </div>
+                        <div class="t1-icon col-3 text-white d-flex height align-items-center px-2 px-md-4 px-lg-4 d-none d-sm-none d-md-flex col-md-4 col-lg-3 col-xl-5  px-xl-4"
+                            style="background-color: #0000000F;">
+                            <div class="col-3">
+                                <i class="bi bi-facebook"></i>
+                            </div>
+                            <div class="col-3">
+                                <i class="bi bi-twitter"></i>
+                            </div>
+                            <div class="col-3">
+                                <i class="bi bi-instagram"></i>
+                            </div>
+                            <div class="col-3">
+                                <i class="bi bi-pinterest"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="logo  py-4 col-4 col-lg-2">
+                    <img src="image/logo.png " alt="logo" class="img-fluid" />
+                </div>
+                <nav class="col-8 d-flex align-items-center d-none d-sm-none d-xl-flex">
+                    <ul class="nav col-10 fs-xxl-5">
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link same1 active fw-medium btn btn-secondary  bg-white"
+                                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Home
+                                <i class="bi bi-chevron-compact-down"></i>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li class="border-bottom"><a class="dropdown-item " href="index.html">Home 01</a></li>
+                                <li class="border-bottom"><a class="dropdown-item " href="#">Home 02</a></li>
+                                <li class="border-bottom"><a class="dropdown-item " href="#">Home 03</a></li>
+                                <li><a class="dropdown-item " href="#">Home 04</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link same1  fw-medium btn btn-secondary  bg-white" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">Tours page
+                                <i class="bi bi-chevron-compact-down"></i>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li class="border-bottom"><a class="dropdown-item" href="#">Tours-Top Serch</a></li>
+                                <li class="border-bottom"><a class="dropdown-item" href="#">Tours-Sidebar Filter</a>
+                                </li>
+                                <li class="border-bottom"><a class="dropdown-item" href="#">Tours-List View</a></li>
+                                <li class="border-bottom"><a class="dropdown-item" href="#">Tours-Layout 01</a></li>
+                                <li><a class="dropdown-item" href="#">Tours-Layout 02</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link same1 fw-medium btn btn-secondary  bg-white" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">Destin
+                                <i class="bi bi-chevron-compact-down"></i>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li class="border-bottom"><a class="dropdown-item" href="#">Destination1</a></li>
+                                <li class="border-bottom"><a class="dropdown-item" href="#">Destination2</a></li>
+                                <li><a class="dropdown-item" href="#">Destination Details</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link same1 fw-medium btn btn-secondary  bg-white" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">Pages
+                                <i class="bi bi-chevron-compact-down"></i>
+                            </a>
+                            <ul class="dropdown-menu ">
+                                <div class="d-flex">
+                                    <ul class=" ">
+                                        <h6 class="py-2 text-dark ">Pages 01</h6>
+                                        <li class="border-bottom"><a class="dropdown-item list-none py-2"
+                                                href="#">News1</a>
+                                        </li>
+                                        <li class="border-bottom"><a class="dropdown-item list-none py-2"
+                                                href="#">News2</a>
+                                        </li>
+                                        <li><a class="dropdown-item list-none py-2" href="#">News3</a></li>
+                                    </ul>
+                                    <ul class=" ">
+                                        <h6 class="py-2  text-dark">Pages 02</h6>
+                                        <li class="border-bottom"><a class="dropdown-item list-none py-2"
+                                                href="#">News1</a>
+                                        </li>
+                                        <li class="border-bottom"><a class="dropdown-item list-none py-2"
+                                                href="#">News2</a>
+                                        </li>
+                                        <li><a class="dropdown-item list-none py-2" href="#">News3</a></li>
+                                    </ul>
+                                    <ul class="">
+                                        <h6 class="py-2 text-dark">Pages 03</h6>
+                                        <li class="border-bottom"><a class="dropdown-item list-none py-2"
+                                                href="#">News1</a>
+                                        </li>
+                                        <li class="border-bottom"><a class="dropdown-item list-none py-2"
+                                                href="#">News2</a>
+                                        </li>
+                                        <li><a class="dropdown-item list-none py-2" href="#">News3</a></li>
+                                    </ul>
+                                </div>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link same1  fw-medium btn btn-secondary  bg-white" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">News
+                                <i class="bi bi-chevron-compact-down"></i>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li class="border-bottom"><a class="dropdown-item" href="#">News1</a></li>
+                                <li class="border-bottom"><a class="dropdown-item" href="#">News2</a></li>
+                                <li><a class="dropdown-item" href="#">News3</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a href="contect.html" class="nav-link ">Contect</a>
+                        </li>
+                    </ul>
+                    <div class="col-2 d-flex align-items-center ">
+                        <div class="i-1 col-6 position-relative">
+                            <a href="#" class="nav-link ps-4 "><i class="bi bi-search"></i></a>
+                        </div>
+                        <div class="i-2 " data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            <a href="#" class="nav-link text-center "><i class="bi bi-person-circle"></i></a>
+                        </div>
+                    </div>
+                </nav>
+                <div class="col-4 d-flex align-items-center justify-content-end d-xl-none">
+                    <button class="btn text-dark" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">
+                        <div class="col-3 pe-3 col-lg-2" style="color:black; font-size: 30px;">
+                            <i class="bi bi-list"></i>
+                        </div>
+                    </button>
+                    <div class="i-1 col-4  col-lg-3 position-relative">
+                        <a href="#" class="nav-link ps-4 "><i class="bi bi-search"></i></a>
+                    </div>
+                    <div class="i-2" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <a href="#" class="nav-link text-center "><i class="bi bi-person-circle"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </header>
+    <main>
+        <!-- section 1 -->
+        <section class="benner">
+            <div class="container height">
+                <div class="row  height carousel-inner  align-items-end">
+                    <div class="content col-4 text-white">
+                        <h1 class="fw-lg-bolder  position-relative ben-h1 fs-md-1 text-center">Destination</h1>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- section 2 -->
+        <section class="destination p-y">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-lg-5 border border-5 p-0 shedow mt-5">
+                        <img src="image/tour-11.jpg" alt="#" class="img-fluid p-0 object-fit-cover">
+                    </div>
+                    <div class="col-12 col-lg-7 mt-5">
+                        <h2 class="col-10 fs-2 fw-bolder ps-5">United Kingdom</h2>
+                        <p class="mt-3 ps-5 text-body-secondary col-10">Lorem ipsum available isn but the majority have
+                            suffered alteratin in some or form injected.
+                            Lorem Ipsum. Proin gravida nibh vel velit auctor aliqueenean sollicitudin, lorem quis
+                            bibendum auctor consequat.</p>
+                        <div class="col-12 mt-3 ps-5 d-flex flex-wrap justify-content-between justify-content-lg-start">
+                            <div class="col-3 text-dark fw-medium">Country</div>
+                            <div class="col-8 text-body-secondary">United Kingdom</div>
+                            <hr class="col-10">
+                        </div>
+                        <div class="col-12 mt-1 ps-5 d-flex flex-wrap justify-content-between justify-content-lg-start">
+                            <div class="col-3 text-dark fw-medium">Languages Spoken</div>
+                            <div class="col-8 text-body-secondary">English</div>
+                            <hr class="col-10">
+                        </div>
+                        <div class="col-12 mt-1 ps-5 d-flex flex-wrap justify-content-between justify-content-lg-start">
+                            <div class="col-3 text-dark fw-medium">Visa Requirements</div>
+                            <div class="col-8 text-body-secondary">Personal Documents Requied</div>
+                            <hr class="col-10">
+                        </div>
+                        <div class="col-12 mt-1 ps-5 d-flex flex-wrap justify-content-between justify-content-lg-start">
+                            <div class="col-3 text-dark fw-medium">Area (km2)</div>
+                            <div class="col-8 text-body-secondary">88.000 km2</div>
+                            <hr class="col-10">
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </section>
+           <!-- about section -->
+           <section class="py-5 about">
+            <div class="container py-5">
+                <div class="row py-5 text-center justify-content-center">
+                    <span class=" py-2 mb-2 text-xl-success  about-s">Popular Activities</span>
+                    <h2>Explore Real Adventure</h2>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-10 col-md-6 about-main  overflow-hidden position-relative col-xl-6 col-xxl-3">
+                        <img src="image/image-03.jpg" alt="#" class="img-fluid rounded  position-absolute">
+                        <div class="col-10 d-flex ab-main bg-white p-3 rounded-2 justify-content-between flex-wrap ">
+                            <h4 class="col-9 fw-bolder">Adventure and climbing</h4>
+                            <div class="icon text-success col-2 ">
+                                <i
+                                    class="bi bi-arrow-up-right fw-bolder fs-3 text-white col-12 bg-success  rounded-5 p-1"></i>
+                            </div>
+                            <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                    <div class="col-10 col-md-6 about-main  overflow-hidden position-relative  col-xl-6 col-xxl-3">
+                        <img src="image/image-04.jpg" alt="#" class="img-fluid rounded  position-absolute">
+                        <div class="col-10 d-flex ab-main bg-white p-3 rounded-2 justify-content-between flex-wrap ">
+                            <h4 class="col-9 fw-bolder">Adventure and climbing</h4>
+                            <div class="icon text-success col-2 ">
+                                <i
+                                    class="bi bi-arrow-up-right fw-bolder fs-3 text-white col-12 bg-success  rounded-5 p-1"></i>
+                            </div>
+                            <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                    <div class="col-10 col-md-6 about-main  overflow-hidden position-relative  col-xl-6 col-xxl-3">
+                        <img src="image/tour-2-550x590.jpg" alt="#" class="img-fluid rounded  position-absolute">
+                        <div class="col-10 d-flex ab-main bg-white p-3 rounded-2 justify-content-between flex-wrap ">
+                            <h4 class="col-9 fw-bolder">Adventure and climbing</h4>
+                            <div class="icon text-success col-2 ">
+                                <i
+                                    class="bi bi-arrow-up-right fw-bolder fs-3 text-white col-12 bg-success  rounded-5 p-1"></i>
+                            </div>
+                            <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                    <div class="col-10 col-md-6 about-main  overflow-hidden position-relative  col-xl-6 col-xxl-3">
+                        <img src="image/image-01.jpg" alt="#" class="img-fluid rounded  position-absolute">
+                        <div class="col-10 d-flex ab-main bg-white p-3 rounded-2 justify-content-between flex-wrap ">
+                            <h4 class="col-9 fw-bolder">Adventure and climbing</h4>
+                            <div class="icon text-success col-2 ">
+                                <i
+                                    class="bi bi-arrow-up-right fw-bolder fs-3 text-white col-12 bg-success  rounded-5 p-1"></i>
+                            </div>
+                            <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+             <!-- section 5 -->
+             <section class="p-y popular">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-12 d-flex justify-content-center flex-wrap popular-h">
+                            <div class=" py-2 mb-2  about-s popular1 col-10 text-center">Popular Activities</div>
+                            <div class="col-12 d-flex justify-content-center">
+                                <h2 class="col-12 col-lg-8 display-4 text-center text-white fw-bolder ">Feel real adventure and very
+                                    close to nature</h2>
+                            </div>
+                        </div>
+                        <div class="col-10 col-lg-4 bg-white rounded-2 py-3 d-flex flex-wrap justify-content-center">
+                            <div class="col-11  bg-white p-2">
+                                <div class="col-12 bg-warning d-flex align-items-center justify-content-between rounded-2 ">
+                                    <div class="col-2 text-white fs-2 text-center">
+                                        <i class="bi bi-house-fill"></i>
+                                    </div>
+                                    <h5 class="col-10  text-white mb-0">Tent camping</h5>
+                                </div>
+                            </div>
+                            <div class="col-11  bg-white p-2 m-2">
+                                <div
+                                    class="col-12 bg-info d-flex align-items-center justify-content-between rounded-2 hover1">
+                                    <i class="bi bi-airplane col-2 text-success fs-2 text-center "></i>
+                                    <h5 class="col-10  mb-0">Tent camping</h5>
+                                </div>
+                            </div>
+                            <div class="col-11  bg-white p-2 m-2">
+                                <div
+                                    class="col-12 bg-info  d-flex align-items-center justify-content-between rounded-2 hover1">
+                                    <i class="bi bi-bicycle  col-2 text-success fs-2 text-center "></i>
+                                    <h5 class="col-10   mb-0">Tent camping</h5>
+                                </div>
+                            </div>
+                            <div class="col-11  bg-white p-2 m-2">
+                                <div
+                                    class="col-12 bg-info d-flex align-items-center justify-content-between rounded-2 hover1">
+                                    <i class="bi bi-globe-central-south-asia  col-2 text-success fs-2 text-center "></i>
+                                    <h5 class="col-10   mb-0">Tent camping</h5>
+                                </div>
+                            </div>
+                            <div class="col-11  bg-white p-2 m-2">
+                                <div
+                                    class="col-12 bg-info  d-flex align-items-center justify-content-between rounded-2 hover1">
+                                    <div class="col-2 text-success  fs-2 text-center">
+                                        <i class="bi bi-emoji-smile  col-2 text-success fs-2 text-center "></i>
+                                    </div>
+                                    <h5 class="col-10   mb-0">Tent camping</h5>
+                                </div>
+                            </div>
+                            <div class="col-11  bg-white p-2 m-2">
+                                <div
+                                    class="col-12 bg-info  d-flex align-items-center justify-content-between rounded-2 hover1">
+                                    <i class="bi bi-align-top  col-2 text-success fs-2 text-center "></i>
+                                    <h5 class="col-10   mb-0">Tent camping</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-10 col-lg-4 ps-5">
+                            <div class="col-6">
+                                <img src="image/png.png" alt="#" class=" img-fluid">
+                            </div>
+                            <h2 class="col-11 text-white">Real adventure & enjoy your dream tours</h2>
+                            <p class="col-12 text-white-50 mt-3">Sit amet consectetur velit integer tincidunt scelerisque
+                                volutpat neque fermeny massa lacus.</p>
+                            <div class="col-9">
+                                <img src="image/people.png" alt="#" class="img-fluid">
+                            </div>
+                            <div class="col-12 d-flex justify-content-between text-white py-2">
+                                <div>Saticfied Clients</div>
+                                <div>89%</div>
+                            </div>
+                            <progress id="file" value="89" max="100" class="col-12"></progress>
+                            <div class="col-12 d-flex justify-content-between text-white py-2">
+                                <div>Success Rate</div>
+                                <div>86%</div>
+                            </div>
+                            <progress id="file" value="86" max="100" class="col-12"></progress>
+                        </div>
+                        <div class="col-10 col-lg-4">
+                            <img src="image/image-06.jpg" alt="#" class="img-fluid rounded-2">
+                        </div>
+                    </div>
+                </div>
+            </section>
+        <section class="archive ">
+            <div class="container">
+                <div class="row position-relative">
+                    <h2 class="col-12 title fw-bolder text-center ">ACHIEVEMENTS</h2>
+                    <span class="bg-warning col-5 col-lg-2 text-white text-center p-1 position-absolute archiv-span ">Company
+                        Facts</span>
+                </div>
+                <div class="row mt-5">
+                    <div class="col-6 col-lg-3 p-2">
+                        <div
+                            class="d-flex flex-wrap shadow p-3 mb-5 bg-body-tertiary rounded justify-content-center main-circle">
+                            <div
+                                class="circle col-10 shadow-none p-3 mb-5 bg-body-tertiary rounded-circle text-center bg-success-subtle d-flex align-items-center justify-content-center">
+                                <i class="bi bi-person-circle display-2 text-xl-success"></i>
+                            </div>
+                            <div class="cir-content col-12 text-center">
+                                <h2 class="fw-bolder">3500+</h2>
+                                <span class="text-body-secondary fw-bold">Happy Traveler</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-lg-3 p-2">
+                        <div
+                            class="d-flex flex-wrap shadow p-3 mb-5 bg-body-tertiary rounded justify-content-center main-circle">
+                            <div
+                                class="circle col-10 shadow-none p-3 mb-5 bg-body-tertiary rounded-circle text-center bg-success-subtle d-flex align-items-center justify-content-center">
+                                <i class="bi bi-house  display-2 text-xl-success"></i>
+                            </div>
+                            <div class="cir-content col-12 text-center">
+                                <h2 class="fw-bolder">1650+</h2>
+                                <span class="text-body-secondary fw-bold">Tours success</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-lg-3 p-2">
+                        <div
+                            class="d-flex flex-wrap shadow p-3 mb-5 bg-body-tertiary rounded justify-content-center main-circle">
+                            <div
+                                class="circle col-10 shadow-none p-3 mb-5 bg-body-tertiary rounded-circle text-center bg-success-subtle d-flex align-items-center justify-content-center">
+                                <i class="bi bi-person-vcard  display-2 text-xl-success"></i>
+                            </div>
+                            <div class="cir-content col-12 text-center">
+                                <h2 class="fw-bolder">99.5%</h2>
+                                <span class="text-body-secondary fw-bold">Positive Reviews</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-lg-3 p-2">
+                        <div
+                            class="d-flex flex-wrap shadow p-3 mb-5 bg-body-tertiary rounded justify-content-center main-circle">
+                            <div
+                                class="circle col-10 shadow-none p-3 mb-5 bg-body-tertiary rounded-circle text-center bg-success-subtle d-flex align-items-center justify-content-center">
+                                <i class="bi bi-airplane-engines  display-2 text-xl-success"></i>
+                            </div>
+                            <div class="cir-content col-12 text-center">
+                                <h2 class="fw-bolder">62k+</h2>
+                                <span class="text-body-secondary fw-bold">Awards Winning</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+   
+    </main>
+    <footer>
+        <section class="footer p-y">
+            <div class="container">
+                <div class="row justify-content-between">
+                    <div class="col-12 col-md-6 d-flex text-white py-2 align-items-center">
+                        <div class="foot-circle">
+                            <img src="image/icon-headphone.png" alt="#" class="img-fluid">
+                        </div>
+                        <div class="col-6 foot-font fw-bold ps-3">
+                            Need any support for tour & travels ?
+                        </div>
+                        <div class="col-2 se-circle d-flex justify-content-center align-items-center ">
+                            <i class="bi bi-arrow-up-right fs-1"></i>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 text-white d-flex py-2 align-items-center">
+                        <div class="foot-circle">
+                            <img src="image/icon-travel.png" alt="#" class="img-fluid">
+                        </div>
+                        <div class="col-6 col-xl-7 foot-font fw-bold ps-3">
+                            Ready to Get Started With Vacations!
+                        </div>
+                        <div class="col-2 se-circle1  d-flex justify-content-center align-items-center ">
+                            <i class="bi bi-arrow-up-right fs-1"></i>
+                        </div>
+                    </div>
+                </div>
+                <hr class="text-white mt-5">
+                </hr>
+                <div class="row mt-5">
+                    <div class="col-12 col-md-6 col-lg-3 py-5">
+                        <div class="col-4 col-lg-7 ">
+                            <a href="#">
+                                <img src="image/logo-white.png" alt="#" class="img-fluid">
+                            </a>
+                        </div>
+                        <p class="text-white mt-4">To take trivial example which us</br>
+                            ever undertakes laborious physica exercise except obsome.</p>
+                        <div class="col-12 d-flex flex-wrap mt-5">
+                            <div class="col-2">
+                                <div class="foot-logo d-flex justify-content-center align-items-center">
+                                    <i class="bi bi-twitter"></i>
+                                </div>
+                            </div>
+                            <div class="col-2">
+                                <div class="foot-logo d-flex justify-content-center align-items-center">
+                                    <i class="bi bi-facebook"></i>
+                                </div>
+                            </div>
+                            <div class="col-2">
+                                <div class="foot-logo d-flex justify-content-center align-items-center">
+                                    <i class="bi bi-instagram"></i>
+                                </div>
+                            </div>
+                            <div class="col-2">
+                                <div class="foot-logo d-flex justify-content-center align-items-center">
+                                    <i class="bi bi-linkedin"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-2 py-5">
+                        <h4 class="text-white">Pages</h4>
+                        <div class="col-12 mt-4">
+                            <div class="col-12 mt-3">
+                                <a href="#" class="text-decoration-none text-white foot2">
+                                    <span>About us</span>
+                                </a>
+                            </div>
+                            <div class="col-12 mt-3">
+                                <a href="#" class="text-decoration-none text-white foot2">
+                                    <span>Community Blog</span>
+                                </a>
+                            </div>
+                            <div class="col-12 mt-3">
+                                <a href="#" class="text-decoration-none text-white foot2">
+                                    <span>Work with Us</span>
+                                </a>
+                            </div>
+                            <div class="col-12 mt-3">
+                                <a href="#" class="text-decoration-none text-white foot2">
+                                    <span>Privacy Policy</span>
+                                </a>
+                            </div>
+                            <div class="col-12 mt-3">
+                                <a href="#" class="text-decoration-none text-white foot2">
+                                    <span>Contact us</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 text-white  py-5">
+                        <h4 class="text-white position-relative">Newsletter
+                            <img src="image/arrow.png" alt="#" class="position-absolute foot-img">
+                        </h4>
+                        <p class="pe-5 me-3 mt-4">Subscribe our newsletter to get our latest update & news.</p>
+                        <form action="#" class="d-flex">
+                            <input type="email" name="email" placeholder="Email Address" class="col-10 foot-form border-0">
+                            <div class="col-2 text-white bg-success d-flex align-items-center justify-content-center foot-form1" type="button">
+                                <i class="bi bi-send-fill fs-3"></i>
+                            </div>
+                        </form>
+                        <div class="col-12 d-flex mt-4">
+                            <div class="col-1 text-white">
+                                <i class="bi bi-check2-circle"></i>
+                            </div>
+                            <div class="col-11">
+                                I agree to all terms and policies
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3  py-5">
+                        <h4  class="text-white">Contact</h4>
+                        <div class="col-12 d-flex justify-content-between mt-4">
+                            <div class="col-2">
+                                <div class="foot-logo3 d-flex justify-content-center align-items-center text-xl-success">
+                                    <i class="bi bi-linkedin"></i>
+                                </div>
+                            </div>
+                            <div class="col-10 text-white">
+                                <p class="col-12 text-dark-subtle fs-7 m-0">Drop a Line</p>
+                                <P>+00 (123) 456 889</P>
+                            </div>
+                        </div>
+                        <div class="col-12 d-flex justify-content-between mt-2">
+                            <div class="col-2">
+                                <div class="foot-logo3 d-flex justify-content-center align-items-center text-xl-success">
+                                    <i class="bi bi-envelope-fill"></i>
+                                </div>
+                            </div>
+                            <div class="col-10 text-white">
+                                <p class="col-12 text-dark-subtle fs-7 m-0">Email Address</p>
+                                <P>contact@example.com</P>
+                            </div>
+                        </div>
+                        <div class="col-12 d-flex justify-content-between mt-2">
+                            <div class="col-2">
+                                <div class="foot-logo3 d-flex justify-content-center align-items-center text-xl-success">
+                                    <i class="bi bi-geo-alt-fill"></i>
+                                </div>
+                            </div>
+                            <div class="col-10 text-white">
+                                <p class="col-12 text-dark-subtle fs-7 m-0">Visit office</p>
+                                <P>583 Main Street, NY, USA</P>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </section>
+        <div class="text-center text-white bg-dark py-3">
+            © 2023 Copyrights by Gowilds. All Rights Reserved
+        </div>
+        
+    </footer>
+    <script src="js/bootstrap.bundle.min.js" type="text/javascript"></script>
+</body>
+
+</html>

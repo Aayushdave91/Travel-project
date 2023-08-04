@@ -1,0 +1,10 @@
+https://gaviaspreview.com/wp/gowilds/	
+
+========color========
+topbar-back:	;
+font-color:#fff;
+header-font-color:#82828A;
+banner-color:f7921e;
+font-other:#1C231F;
+=====font-family=====
+topbar-font:kumbh-sans;	
